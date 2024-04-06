@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1570018575343119494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1570018575343119492}
+  - component: {fileID: 1570018575343119495}
+  m_Layer: 0
+  m_Name: LevelDesignService
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1570018575343119492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570018575343119494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1570018575343119495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570018575343119494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37b67a2eaa8b94243a4c48556ccd89fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedBrickType: 0
+  selectMark: {fileID: 0}
+  stageInputfield: {fileID: 0}
+  save: {fileID: 0}
+  load: {fileID: 0}
+  reset: {fileID: 0}
+  brickBGPrefab: {fileID: 4150186240629006686, guid: 6d31729de5ead16458145949849cefb2, type: 3}
+  brickBGParent: {fileID: 0}
+  brickBGs: []
+  brickSprites:
+  - {fileID: 21300000, guid: cc8cf04314fb9474ab60991b631b6edd, type: 3}
+  - {fileID: 21300000, guid: 78c4f99168dab4c42a65b70639d6576a, type: 3}
+  - {fileID: 21300000, guid: 5f83aa60a162a0e49bcb89ad6c865ab9, type: 3}
+  - {fileID: 21300000, guid: c3497320046a74047800407f7c90f911, type: 3}
+  - {fileID: 21300000, guid: 13f7da6d57c069b498b29113a3418b9c, type: 3}
+  - {fileID: 21300000, guid: 57caf9c3b8450b640aa5b671d14b07fa, type: 3}
+  - {fileID: 21300000, guid: 1fd5119cf2cea874b8c54f5c14d9e2f8, type: 3}
+  - {fileID: 21300000, guid: d6c6c26fbf7eb034ca217a1487d7c62d, type: 3}
+  - {fileID: 21300000, guid: 425c474ecbe69f54780d39bc0b93a3e0, type: 3}
+  - {fileID: 21300000, guid: 41b5af25a1daf8c478f20cccc3db8b17, type: 3}
